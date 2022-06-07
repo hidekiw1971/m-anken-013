@@ -1,0 +1,19 @@
+@use "global" as *;
+.works__main-title--text {
+  display: inherit;
+  width: inherit;
+  height: inherit;
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(20);
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  // color: #fff;
+  color: #333;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

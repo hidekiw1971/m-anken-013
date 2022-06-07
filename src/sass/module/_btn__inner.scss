@@ -1,0 +1,12 @@
+@use "global" as *;
+.btn__inner {
+  display: inherit;
+  max-width: inherit;
+  width: inherit;
+  min-height: inherit;
+  height: inherit;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

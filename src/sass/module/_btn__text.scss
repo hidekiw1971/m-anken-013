@@ -1,0 +1,22 @@
+@use "global" as *;
+.btn__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  max-width: inherit;
+  width: inherit;
+  min-height: inherit;
+  height: inherit;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-style: normal;
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
