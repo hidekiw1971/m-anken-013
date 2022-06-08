@@ -1,0 +1,11 @@
+@use "global" as *;
+.works__text-box--wrap {
+  padding-top: rem(0);
+  padding-right: rem(20);
+  padding-bottom: rem(0);
+  padding-left: rem(20);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

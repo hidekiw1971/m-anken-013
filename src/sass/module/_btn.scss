@@ -7,6 +7,11 @@
   height: 100%;
   background-color: #333;
   padding: 0;
+  border: #fff 1px solid;
+  margin-top: rem(0);
+  margin-right: rem(0);
+  margin-bottom: rem(21);
+  margin-left: rem(0);
 
   @include mq(md) {
   }

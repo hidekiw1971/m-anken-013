@@ -10,8 +10,7 @@
   font-size: rem(20);
   letter-spacing: rem(2);
   line-height: 1.45;
-  // color: #fff;
-  color: #333;
+  color: #fff;
   position: relative;
 
   @include mq(md) {
@@ -30,7 +29,7 @@
   left: 50%;
   transform: translate(-50%, -100%);
   color: #f9f871;
-  // opacity: 0.2;
+  opacity: 0.2;
   font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: $normal;

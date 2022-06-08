@@ -15,6 +15,7 @@
   letter-spacing: rem(2);
   line-height: 1.45;
   color: #fff;
+  white-space: nowrap;
   @include mq(md) {
   }
   @include mq(xl) {

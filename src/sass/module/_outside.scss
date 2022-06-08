@@ -2,7 +2,7 @@
 .outside {
   text-align: center;
   background-color: #f00;
-  padding: rem(10);
+  // padding: rem(10);
   @include mq(md) {
   }
   @include mq(xl) {

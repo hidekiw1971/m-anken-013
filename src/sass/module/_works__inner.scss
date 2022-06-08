@@ -1,8 +1,8 @@
 @use "global" as *;
-.works__title--inner {
-  padding-top: rem(0);
+.works__inner {
+  padding-top: rem(49);
   padding-right: rem(0);
-  padding-bottom: rem(48);
+  padding-bottom: rem(0);
   padding-left: rem(0);
   @include mq(md) {
   }
