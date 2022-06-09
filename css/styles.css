@@ -235,7 +235,6 @@ select::-ms-expand {
 }
 .outside {
   text-align: center;
-  background-color: #f00;
 }
 .swiper {
   min-width: 375px;
@@ -279,6 +278,14 @@ select::-ms-expand {
 .swiper-pagination {
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
+}
+.swiper-pagination {
+  position: static;
+  position: initial;
+}
+
+.works__contents {
+  background-color: #333;
 }
 .works__explain--inner-wrap {
   display: inherit;
@@ -426,6 +433,8 @@ select::-ms-expand {
   display: inline-block;
   min-width: 376px;
   min-width: 23.5rem;
+  max-width: 768px;
+  max-width: 48rem;
   width: 100%;
   min-height: 723px;
   min-height: 45.1875rem;
