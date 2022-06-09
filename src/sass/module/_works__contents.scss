@@ -2,6 +2,14 @@
 .works__contents {
   background-color: #333;
   @include mq(md) {
+    display: inline-block;
+    max-width: rem(896);
+    width: 100%;
+    min-height: rem(550);
+    height: 100%;
+    // background-color: #f00;
+    background-color: #333;
+    // position: relative;
   }
   @include mq(xl) {
   }

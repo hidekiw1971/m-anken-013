@@ -7,6 +7,10 @@
   min-height: rem(261);
   height: 100%;
   @include mq(md) {
+    max-width: rem(557);
+    width: 100%;
+    max-height: rem(389);
+    height: 100%;
   }
   @include mq(xl) {
   }
@@ -47,12 +51,13 @@
 
 .swiper-pagination {
   margin-bottom: rem(24);
+  position: initial;
   @include mq(md) {
   }
   @include mq(xl) {
   }
 }
 
-.swiper-pagination {
-  position: initial;
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #f9f871;
 }

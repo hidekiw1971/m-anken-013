@@ -244,6 +244,14 @@ select::-ms-expand {
   min-height: 16.3125rem;
   height: 100%;
 }
+@media screen and (min-width: 768px) {
+  .swiper {
+    max-width: 34.8125rem;
+    width: 100%;
+    max-height: 24.3125rem;
+    height: 100%;
+  }
+}
 .swiper-slide {
   display: inline-block;
   min-width: 375px;
@@ -278,14 +286,44 @@ select::-ms-expand {
 .swiper-pagination {
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
-}
-.swiper-pagination {
   position: static;
   position: initial;
 }
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #f9f871;
+}
 
+@media screen and (min-width: 768px) {
+  .works__contents--inner {
+    display: inherit;
+    max-width: inherit;
+    width: inherit;
+    min-height: inherit;
+    height: inherit;
+  }
+}
+@media screen and (min-width: 768px) {
+  .works__contents--wrap {
+    display: inherit;
+    max-width: inherit;
+    width: inherit;
+    min-height: inherit;
+    height: inherit;
+    position: relative;
+  }
+}
 .works__contents {
   background-color: #333;
+}
+@media screen and (min-width: 768px) {
+  .works__contents {
+    display: inline-block;
+    max-width: 56rem;
+    width: 100%;
+    min-height: 34.375rem;
+    height: 100%;
+    background-color: #333;
+  }
 }
 .works__explain--inner-wrap {
   display: inherit;
@@ -381,6 +419,17 @@ select::-ms-expand {
   padding-left: 20px;
   padding-left: 1.25rem;
 }
+@media screen and (min-width: 768px) {
+  .works__text-box--wrap {
+    display: inline-block;
+    max-width: 31.875rem;
+    width: 100%;
+    min-height: 19.5rem;
+    height: 100%;
+    -webkit-transform: translate(27%, 50%);
+            transform: translate(27%, 50%);
+  }
+}
 .works__text-box {
   background-color: #333;
 }
@@ -393,6 +442,11 @@ select::-ms-expand {
   padding-bottom: 3rem;
   padding-left: 0px;
   padding-left: 0rem;
+}
+@media screen and (min-width: 768px) {
+  .works__title--inner {
+    position: relative;
+  }
 }
 .works__title--text {
   display: inherit;
@@ -429,6 +483,14 @@ select::-ms-expand {
   letter-spacing: 0.125rem;
   line-height: 1.44;
 }
+@media screen and (min-width: 768px) {
+  .works-swiper {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
 .works {
   display: inline-block;
   min-width: 376px;
@@ -440,5 +502,12 @@ select::-ms-expand {
   min-height: 45.1875rem;
   height: 100%;
   background-color: #111;
+}
+@media screen and (min-width: 768px) {
+  .works {
+    max-width: none;
+    max-width: initial;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
