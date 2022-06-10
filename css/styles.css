@@ -295,11 +295,10 @@ select::-ms-expand {
 
 @media screen and (min-width: 768px) {
   .works__contents--inner {
-    display: inherit;
-    max-width: inherit;
-    width: inherit;
-    min-height: inherit;
-    height: inherit;
+    display: inline-block;
+    width: 100%;
+    min-height: 34.375rem;
+    height: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -318,11 +317,11 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .works__contents {
     display: inline-block;
-    max-width: 56rem;
-    width: 100%;
+    width: 70%;
     min-height: 34.375rem;
     height: 100%;
     background-color: #333;
+    margin-left: 30%;
   }
 }
 .works__explain--inner-wrap {

@@ -1,11 +1,10 @@
 @use "global" as *;
 .works__contents--inner {
   @include mq(md) {
-    display: inherit;
-    max-width: inherit;
-    width: inherit;
-    min-height: inherit;
-    height: inherit;
+    display: inline-block;
+    width: 100%;
+    min-height: rem(550);
+    height: 100%;
   }
   @include mq(xl) {
   }
