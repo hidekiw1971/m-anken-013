@@ -1,9 +1,6 @@
 @use "global" as *;
 .works-swiper {
   @include mq(md) {
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
   }
   @include mq(xl) {
   }
