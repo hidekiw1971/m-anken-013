@@ -1,0 +1,10 @@
+@use "global" as *;
+.works__contents--img-text-wrap {
+  @include mq(md) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @include mq(xl) {
+  }
+}

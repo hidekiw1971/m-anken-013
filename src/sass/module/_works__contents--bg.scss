@@ -1,0 +1,12 @@
+@use "global" as *;
+.works__contents--bg {
+  @include mq(md) {
+    width: 67.6%;
+    min-height: rem(550);
+    height: 100%;
+    margin-left: auto;
+    background-color: #333;
+  }
+  @include mq(xl) {
+  }
+}

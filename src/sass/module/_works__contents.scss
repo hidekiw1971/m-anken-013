@@ -1,6 +1,5 @@
 @use "global" as *;
 .works__contents {
-  background-color: #333;
   @include mq(md) {
   }
   @include mq(xl) {

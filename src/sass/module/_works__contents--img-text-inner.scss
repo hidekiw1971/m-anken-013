@@ -1,7 +1,6 @@
 @use "global" as *;
-.works-swiper {
+.works__contents--img-text-inner {
   @include mq(md) {
-    margin-right: rem(32);
   }
   @include mq(xl) {
   }

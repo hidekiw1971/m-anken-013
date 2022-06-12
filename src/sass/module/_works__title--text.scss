@@ -12,8 +12,10 @@
   line-height: 1.45;
   color: #fff;
   position: relative;
-
   @include mq(md) {
+    font-size: rem(30);
+    letter-spacing: rem(0.5);
+    line-height: 1.1;
   }
   @include mq(xl) {
   }
@@ -27,10 +29,10 @@
   height: 100%;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -150%);
   color: #f9f871;
   opacity: 0.2;
-  font-family: "Noto Serif JP";
+  font-family: "Noto Serif JP", serif;
   font-style: normal;
   font-weight: $normal;
   font-size: rem(50);
@@ -38,6 +40,10 @@
   line-height: 1.44;
 
   @include mq(md) {
+    font-size: rem(110);
+    line-height: 1.436;
+    transform: translate(-24%, -137%);
+    letter-spacing: rem(4);
   }
   @include mq(xl) {
   }

@@ -2,6 +2,8 @@
 .works__text-box {
   background-color: #333;
   @include mq(md) {
+    width: rem(510);
+    height: 100%;
   }
   @include mq(xl) {
   }

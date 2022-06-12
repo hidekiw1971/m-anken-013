@@ -1,11 +1,8 @@
 @use "global" as *;
 .works__contents--wrap {
   @include mq(md) {
-    display: inherit;
-    max-width: inherit;
-    width: inherit;
-    min-height: inherit;
-    height: inherit;
+    // min-width: rem(1240);
+    width: 100%;
     position: relative;
   }
   @include mq(xl) {
