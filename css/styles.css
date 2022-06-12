@@ -534,8 +534,8 @@ select::-ms-expand {
   .works__title--text::before {
     font-size: 6.875rem;
     line-height: 1.436;
-    -webkit-transform: translate(-24%, -137%);
-            transform: translate(-24%, -137%);
+    -webkit-transform: translate(64%, -132%);
+            transform: translate(64%, -132%);
     letter-spacing: 0.25rem;
   }
 }
