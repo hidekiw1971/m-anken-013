@@ -50,9 +50,9 @@
 }
 
 .swiper-pagination {
-  margin-bottom: rem(24);
   position: initial;
   @include mq(md) {
+    transform: translate3d(rem(-24), rem(7), rem(0));
   }
   @include mq(xl) {
   }

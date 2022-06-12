@@ -5,6 +5,10 @@
   padding-bottom: rem(48);
   padding-left: rem(0);
   @include mq(md) {
+    padding-top: rem(0);
+    padding-right: rem(0);
+    padding-bottom: rem(41);
+    padding-left: rem(0);
   }
   @include mq(xl) {
   }

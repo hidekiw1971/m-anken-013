@@ -12,6 +12,9 @@
   line-height: 1.45;
   color: #fff;
   @include mq(md) {
+    font-size: rem(25);
+    letter-spacing: rem(0.5);
+    line-height: 0.64;
   }
   @include mq(xl) {
   }

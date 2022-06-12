@@ -1,0 +1,14 @@
+@use "global" as *;
+.works__contents--img-text {
+  @include mq(md) {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  @include mq(xl) {
+  }
+}

@@ -3,15 +3,18 @@
   display: inherit;
   width: inherit;
   height: inherit;
-
   font-family: "Noto Sans JP";
   font-style: normal;
   font-weight: $normal;
-  font-size: rem(20);
+  font-size: rem(16);
   letter-spacing: rem(2);
   line-height: 1.4375;
   color: #fff;
+  text-align: left;
   @include mq(md) {
+    font-size: rem(16);
+    letter-spacing: rem(0.2);
+    line-height: 2.1875;
   }
   @include mq(xl) {
   }
